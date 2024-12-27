@@ -20,7 +20,7 @@ interface Cosas {
   
   // Método para obtener un objeto por id
   getById: function (id: number): Cosas | undefined {
-    return this.collection.find(item => item.id === id); // Buscamos el objeto por id
+    return this.collection.find(item => item.id === id); // Busca el objeto por id
   }
   }
   export default cosas;
